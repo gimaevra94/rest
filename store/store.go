@@ -6,13 +6,13 @@ import (
 	_ "github.com/lib/pq"
 )
 
-type Storage struct {
+type Store struct {
 	config *Config
 	db     *sql.DB
 }
 
 func New(config *Config) *Store {
-	return &Config{
+	return &Store{
 		config: config,
 	}
 }
