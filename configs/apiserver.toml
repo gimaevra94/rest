@@ -1,0 +1,4 @@
+bind_addr=":8080"
+log_level="debug"
+[store]
+db_utl="host=localhost dbnaame=restapi_dev sslmode=disable"
